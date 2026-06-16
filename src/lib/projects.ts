@@ -78,6 +78,10 @@ export const projects: Project[] = [
       { src: "/images/government-centre/plan-zoning.jpg", alt: "Zoning diagram of the 48.85-hectare site", span: "tall" },
       { src: "/images/government-centre/plan-massing.jpg", alt: "Zone division and massing study" },
       { src: "/images/government-centre/plan-axon.jpg", alt: "Exploded axonometric of the City Hall floor plans", span: "tall" },
+      { src: "/images/government-centre/plan-floor-lower-ground.jpg", alt: "City Hall — lower ground floor plan (scale 1:500)" },
+      { src: "/images/government-centre/plan-floor-ground.jpg", alt: "City Hall — ground floor plan (scale 1:500)" },
+      { src: "/images/government-centre/plan-floor-second.jpg", alt: "City Hall — second floor plan (scale 1:500)" },
+      { src: "/images/government-centre/plan-floor-third.jpg", alt: "City Hall — third floor plan (scale 1:500)" },
     ],
   },
   {
@@ -120,9 +124,12 @@ export const projects: Project[] = [
       { src: "/images/public-library/render-08.jpg", alt: "Main circulation desk and concourse" },
     ],
     drawings: [
-      { src: "/images/public-library/plan-exterior.jpg", alt: "Aerial render of the library massing", span: "wide" },
-      { src: "/images/public-library/plan-site.jpg", alt: "Site development plan of the library" },
+      { src: "/images/public-library/plan-floor-ground.jpg", alt: "Dahon — ground floor plan, 1,599 m²" },
+      { src: "/images/public-library/plan-floor-second.jpg", alt: "Dahon — second floor plan, 2,242 m²" },
+      { src: "/images/public-library/plan-floor-third.jpg", alt: "Dahon — third floor plan, 1,655 m²" },
       { src: "/images/public-library/plan-concept.jpg", alt: "Concept massing phases from box to final form", span: "wide" },
+      { src: "/images/public-library/plan-site.jpg", alt: "Site development plan of the library" },
+      { src: "/images/public-library/plan-exterior.jpg", alt: "Aerial render of the library massing", span: "wide" },
     ],
   },
   {
