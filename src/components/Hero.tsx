@@ -44,7 +44,7 @@ export default function Hero() {
           <div className="md:col-span-5 md:text-right">
             <p className="label">{site.tagline}</p>
             <p className="mt-2 font-display text-2xl italic text-ink">
-              Civic · Cultural · Residential
+              Government Center · Public Library · Residential House
             </p>
           </div>
         </motion.div>
