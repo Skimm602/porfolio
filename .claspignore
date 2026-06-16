@@ -1,0 +1,7 @@
+# This folder holds BOTH a Next.js site and a Google Apps Script project.
+# Keep clasp away from the web app (src/, .next/, node_modules/, configs).
+# Strategy: ignore everything, then re-include only the real Apps Script sources.
+**/**
+
+!appsscript.json
+!Code.js
