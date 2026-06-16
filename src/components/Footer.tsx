@@ -58,7 +58,7 @@ export default function Footer() {
         {/* Oversized wordmark */}
         <div className="mt-16 overflow-hidden md:mt-24">
           <span className="block select-none font-display text-[18vw] font-black leading-[0.8] tracking-tightest text-ink/[0.06] md:text-[15vw]">
-            Jethia Lao
+            VICTECT
           </span>
         </div>
 

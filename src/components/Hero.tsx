@@ -24,10 +24,7 @@ export default function Hero() {
         {/* Oversized name */}
         <h1 className="mt-8 font-display font-black text-ink md:mt-12">
           <span className="block display-xl">
-            <RevealWords text="Jethia" delay={0.25} />
-          </span>
-          <span className="block display-xl">
-            <RevealWords text="Lao" delay={0.4} />
+            <RevealWords text="VICTECT" delay={0.25} />
             <span className="ml-3 align-top font-mono text-[0.16em] font-normal uppercase tracking-widest2 text-muted">
               ©{site.years.slice(-4)}
             </span>

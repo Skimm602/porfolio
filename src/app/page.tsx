@@ -50,10 +50,7 @@ export default function HomePage() {
               family home.
             </p>
             <p className="mt-8 max-w-2xl font-body text-lg leading-relaxed text-ink/70">
-              Trained at {site.university}, my work moves between civic, cultural,
-              and residential scales, grounded in Philippine planning standards
-              and a belief that good design improves how people gather, learn,
-              and live.
+              Trained at {site.university}.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-4">
               <Link

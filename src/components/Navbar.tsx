@@ -47,10 +47,10 @@ export default function Navbar() {
           <Link
             href="/"
             className="group flex items-baseline gap-2"
-            aria-label="Jethia Lao — home"
+            aria-label="VICTECT — home"
           >
             <span className="font-display text-xl font-bold tracking-tightest text-ink md:text-2xl">
-              Jethia Lao
+              VICTECT
             </span>
             <span className="hidden font-mono text-[10px] uppercase tracking-widest2 text-muted sm:inline">
               Architecture

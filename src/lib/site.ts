@@ -5,7 +5,7 @@ export const site = {
   tagline: "Selected Works",
   years: "2025–2026",
   shortBio:
-    "BS Architecture graduate from Cebu Institute of Technology – University, designing civic, cultural, and residential spaces rooted in place, climate, and everyday life.",
+    "BS Architecture graduate from Cebu Institute of Technology – University.",
   email: "jethialao@gmail.com",
   phone: "+63 997 526 6765",
   phoneDial: "+639975266765",
