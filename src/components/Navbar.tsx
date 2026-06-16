@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
@@ -46,9 +47,17 @@ export default function Navbar() {
         <nav className="shell flex h-16 items-center justify-between md:h-20">
           <Link
             href="/"
-            className="group flex items-baseline gap-2"
+            className="group flex items-center gap-2.5"
             aria-label="VICTECT — home"
           >
+            <Image
+              src="/logo.png"
+              alt=""
+              width={1416}
+              height={1111}
+              priority
+              className="h-7 w-auto mix-blend-multiply md:h-8"
+            />
             <span className="font-display text-xl font-bold tracking-tightest text-ink md:text-2xl">
               VICTECT
             </span>

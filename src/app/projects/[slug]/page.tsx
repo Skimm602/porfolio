@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { projects, getProject, getAdjacent } from "@/lib/projects";
 import ParallaxImage from "@/components/ParallaxImage";
 import Gallery from "@/components/Gallery";
+import VideoEmbed from "@/components/VideoEmbed";
 import Reveal from "@/components/Reveal";
 
 export function generateStaticParams() {
@@ -127,6 +128,19 @@ export default async function ProjectDetail({
           </Reveal>
         ))}
       </section>
+
+      {/* Film */}
+      {project.video && (
+        <section className="shell mt-20 md:mt-28">
+          <Reveal className="mb-8 flex items-end justify-between border-b border-line pb-5">
+            <h2 className="font-display text-3xl tracking-tightest text-ink sm:text-4xl">Film</h2>
+            <span className="font-mono text-xs text-muted">Walkthrough</span>
+          </Reveal>
+          <Reveal>
+            <VideoEmbed id={project.video} title={`${project.title} — film`} />
+          </Reveal>
+        </section>
+      )}
 
       {/* Gallery */}
       <section className="shell mt-20 md:mt-28">

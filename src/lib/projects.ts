@@ -27,6 +27,8 @@ export type Project = {
   sections: ProjectSection[];
   gallery: GalleryImage[];
   drawings: GalleryImage[];
+  /** Google Drive file ID for the project film (live-embedded, not hosted) */
+  video?: string;
 };
 
 export const projects: Project[] = [
@@ -83,6 +85,7 @@ export const projects: Project[] = [
       { src: "/images/government-centre/plan-floor-second.jpg", alt: "City Hall — second floor plan (scale 1:500)" },
       { src: "/images/government-centre/plan-floor-third.jpg", alt: "City Hall — third floor plan (scale 1:500)" },
     ],
+    video: "16IoMSdzBbpUD9ZPRZfzl4Ntt9aRePUDd",
   },
   {
     slug: "public-library",
@@ -131,6 +134,7 @@ export const projects: Project[] = [
       { src: "/images/public-library/plan-site.jpg", alt: "Site development plan of the library" },
       { src: "/images/public-library/plan-exterior.jpg", alt: "Aerial render of the library massing", span: "wide" },
     ],
+    video: "1OlGTECsajKkjGVlg8wM_HfSIqEZ38JcN",
   },
   {
     slug: "lao-residence",
@@ -175,6 +179,7 @@ export const projects: Project[] = [
       { src: "/images/lao-residence/plan-existing.jpg", alt: "Existing floor plan — 99 square meters", span: "wide" },
       { src: "/images/lao-residence/plan-proposed.jpg", alt: "Proposed floor plan — 92 square meters" },
     ],
+    video: "17Uze2p21BlaFZRw1LU-FWSe-3gZChBB3",
   },
 ];
 
