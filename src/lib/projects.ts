@@ -85,7 +85,7 @@ export const projects: Project[] = [
       { src: "/images/government-centre/plan-floor-second.jpg", alt: "City Hall — second floor plan (scale 1:500)" },
       { src: "/images/government-centre/plan-floor-third.jpg", alt: "City Hall — third floor plan (scale 1:500)" },
     ],
-    video: "16IoMSdzBbpUD9ZPRZfzl4Ntt9aRePUDd",
+    video: "1OlGTECsajKkjGVlg8wM_HfSIqEZ38JcN",
   },
   {
     slug: "public-library",
@@ -134,7 +134,7 @@ export const projects: Project[] = [
       { src: "/images/public-library/plan-site.jpg", alt: "Site development plan of the library" },
       { src: "/images/public-library/plan-exterior.jpg", alt: "Aerial render of the library massing", span: "wide" },
     ],
-    video: "1OlGTECsajKkjGVlg8wM_HfSIqEZ38JcN",
+    video: "16IoMSdzBbpUD9ZPRZfzl4Ntt9aRePUDd",
   },
   {
     slug: "lao-residence",
