@@ -73,7 +73,7 @@ export default function HomePage() {
           <Reveal className="md:col-span-5">
             <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden bg-stone grayscale">
               <Image
-                src="/images/profile.jpg"
+                src="/images/profile.png"
                 alt={`Portrait of ${site.fullName}`}
                 fill
                 sizes="(max-width: 768px) 80vw, 40vw"

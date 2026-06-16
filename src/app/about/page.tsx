@@ -29,7 +29,7 @@ export default function AboutPage() {
         <Reveal className="md:col-span-5">
           <div className="relative aspect-[4/5] w-full overflow-hidden bg-stone grayscale">
             <Image
-              src="/images/profile.jpg"
+              src="/images/profile.png"
               alt={`Portrait of ${site.fullName}`}
               fill
               sizes="(max-width: 768px) 100vw, 42vw"
